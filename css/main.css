@@ -1,0 +1,305 @@
+
+
+body {
+    background-color: #130c21;
+    color: white;
+ 
+}
+.container{
+    margin: 0 auto;
+    padding: 0;
+    
+}
+h1 {
+    color: white;
+ 
+    font-size: 50px;
+ font-family: 'Didact Gothic', sans-serif;
+}
+p {
+  font-family: 'Didact Gothic', sans-serif;
+    font-size: 14px;
+    line-height: 1.25;
+    margin-bottom: 1em;
+}
+
+
+div {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.first {
+    color: navy;
+    font-weight: bold;
+    border-left: 5px solid beige; 
+}
+
+.text{
+   
+      flex-direction: column;
+
+}
+.img{
+    display: flex;
+    Width: 550;
+        display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+.container {
+    width: 1040px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.read {
+    width: 440px;outline: 1px solid orange;
+}
+
+.center {
+    justify-content: space-around;outline: 1px solid orange;
+}
+
+.var {
+    width: 180px;
+    justify-content: space-around;outline: 1px solid orange;
+}
+
+.paragr {
+    width: 440px;outline: 1px solid orange;
+}
+
+.top {
+    width: 440px;outline: 1px solid orange;
+}
+nav{
+    
+}
+.logo{
+    margin-left: 30px;
+    padding: 10px;
+}
+.bigmoon{
+    width: 440px;
+padding-left: 40px;
+    padding-right: 40px;
+
+ 
+}
+section{
+    display: flex;
+}
+
+.site-menu{
+ font-family: 'Didact Gothic', sans-serif;
+    font-size: 14px;
+    text-decoration: none; 
+    display: flex;
+    margin-left: 20px; 
+}
+.about-us{
+  padding-left: 30px;
+    padding-right: 30px;
+padding-top: 60px;
+    margin-left: 30px;
+    display: flex;
+  
+    flex-wrap: wrap;
+}
+a{
+     color: white; /* Цвет ссылок */
+     font-size: 14px;
+ font-family: 'Didact Gothic', sans-serif;
+     text-decoration: none;
+   }
+a:visited{
+    color: white;
+}
+a:hover{
+     color: #ffc100;
+}
+
+
+}
+.feature-made-in-russia{
+ 
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 44px;
+    padding-bottom: 44px;
+}
+.feature-pilots{
+    
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 44px;
+    padding-bottom: 44px;
+}
+.feature-food{
+     
+    padding-top: 44px;
+    padding-bottom: 44px;
+    padding-left: 40px;
+    padding-right: 40px;}
+.feature-moon-rover{
+    padding-top: 44px;
+    margin-right: 40px;
+    padding-bottom: 44px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.left-column{
+    margin-top: 20px;
+    margin-left: 38px;
+    padding-left: 38px;
+    padding-right: 38px;
+    margin-bottom: 20px;
+}
+.right-column{
+     margin-bottom: 20px;             margin-right: 38px;
+        padding-left: 38px;
+    padding-right: 38px;
+    margin-top: 20px;
+}
+.ul{
+    list-style-type: none;
+}
+.recommendations{
+    background-color: white;
+    color: black;
+}
+.moon-vacation{
+    padding-top: 20px;
+    background-color: white;
+    color: black;
+}
+.left-column1{
+       margin-bottom: 20px;
+    margin-left: 38px;
+    padding-right: 38px;
+}
+.right-column1{
+            margin-bottom: 20px;
+    padding-left: 38px;
+        margin-right: 38px;
+    padding-right: 38px;
+}
+.color{
+list-style-type: disc;
+color: #ffce00;
+       }
+span{
+    color: black;
+}
+.moon1{
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+.overlay{
+    width: 19px;
+    height: 16px;
+}
+.picture{
+    width: 240px;
+    height: 50px;
+}
+.footer-columns-container{
+    display: flex;
+    margin-top: 60px;
+
+}
+
+.q{
+    margin-top: 20px;
+margin-left: 40px;
+margin-right: 40px;
+}
+.qq{
+margin-left: 40px;
+margin-top: 20px;
+margin-right: 40px;
+}
+.qqq{
+margin-left: 40px;
+margin-right: 40px;
+margin-top: 20px;
+}
+.footer-menu{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-left: 80px;
+}
+.footer-submenu{
+    padding-left: 0px;
+    font-size: 13px;
+ font-family: 'Didact Gothic', sans-serif;
+    padding-top: 20px;
+
+
+}
+.w{
+    padding: 10px;
+}
+.footer-submenu-title{
+margin: 20px;
+border-bottom: 1px #ffffff;
+margin-bottom: 20px;
+border-bottom: 1px solid grey;
+
+}
+.company-title{
+    color: white;
+    padding-bottom: 10px;
+}
+.left-column3{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-left: 60px;
+}
+.company-title{
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.copyrights{
+    margin-top: 100px;
+}
+.right-column2{
+    margin-right: 30px;
+}
+.contact-menu{
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-around;
+}
+.site-header{
+    background-color: #241740;
+    padding-bottom: 20px;
+}
+.line{
+    padding:0 0 0 0;    
+    margin:0 0 0 0; 
+}
+button{
+ border-radius: 25px;
+    background-color: #ffc100;
+    width: 240px;
+}
+.picture:hover button{
+    background-color: #9c6aff;
+}
+.btn-yellow{
+    display: flex;
+    justify-content: space-around;
+}
+.verx{
+    display: flex;
+    justify-content: space-around;
+}
